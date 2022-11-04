@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+.navbar {
+  background-color: #000000;
+  padding: 20px 100px;
+  display: flex;
+  align-items: center;
+}
+
+.grow-list {
+  flex: 2 1 0;
+}
+
+.logo {
+  height: 40px;
+  margin-right: 40px;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  overflow: hidden;
+  font-size: 16px;
+  align-items: center;
+}
+
+.list-item {
+  color: #fff;
+  padding: 0 20px;
+}
+
+.fa-solid {
+  padding-left: 10px;
+}
+
+.line {
+  border-left: 2px solid #fff;
+  height: 70px;
+}
+
+.button-small {
+  color: #fff;
+  background-color: #ba0cc5;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Hero Section */
+
+.hero {
+  background-image: url(./assets/bg.png);
+  background-position: center;
+  background-size: cover;
+  height: 140vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-heading{
+    color: #fff;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 170px;
+}
+
+.hero-description{
+    color: #fff;
+    font-size: 28px;
+}
+
+.button-large{
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: none;
+    font-size: 28px;
+    background-color: #ba0cc5;
+    margin-top: 60px;
+}
